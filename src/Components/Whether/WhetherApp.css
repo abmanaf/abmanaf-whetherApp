@@ -1,0 +1,81 @@
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://cdn.dribbble.com/users/1803663/screenshots/5477792/media/c3bb6ecd198014b617274b2c3e8a0d0a.png?resize=1000x750&vertical=center");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*
+   background-image: linear-gradient(
+      180deg,
+      #3b2f80 10%,
+      #130754 50%,
+      #3b2f80 100%
+    );
+   
+    .search-image {
+      width: 50px;
+      height: 30px;
+      border: 1px solid black;
+      text-align: center;
+      padding: 6px 6px;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: 4em;
+    }
+    */
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 100px;
+}
+.search-container input {
+  width: 250px;
+  padding: 10px 10px;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.search-image {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+}
+.data-container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 5em;
+  margin-top: 6em;
+}
+.whether-images {
+  display: flex;
+  justify-content: center;
+}
+.temperature,
+.location {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+}
+.data {
+  font-size: 17px;
+}
+.error-message {
+  color: red;
+  font-size: 20px;
+}
+.element {
+  display: flex;
+  gap: 1em;
+}
+.wind-image img {
+  width: 50px;
+}
